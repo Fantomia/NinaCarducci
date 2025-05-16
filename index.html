@@ -317,19 +317,38 @@
 							<input type="submit" value="Envoyer" aria-label="Message"/>
 						</form>
 				</div>
-				
-				<div class="footer__about" itemscope itemtype="http://schema.org/Organization">
+
+				<div itemscope itemtype="http://schema.org/LocalBusiness">
 					<h2 itemprop="name">Nina Carducci</h2>
+
 					<div class="informations__contact" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
 						<p itemprop="streetAddress">68 avenue Alsace-Lorraine</p>
 						<p itemprop="addressLocality">Bordeaux</p>
 						<p itemprop="postalCode">33200</p>
 					</div>
-					<div class="informations__call">
-						<p itemprop="openingHours" content="Mo-Fr 10:00-19:00">Lundi au Vendredi de 10h à 19h</p>
-						<a href="tel:+33556677889" itemprop="telephone" aria-label="Téléphone">05 56 67 78 89</a>
+
+					<div class="informations__call" itemprop="contactPoint" itemscope itemtype="http://schema.org/ContactPoint">
+						<meta itemprop="contactType" content="customer support" />
+						<meta itemprop="availableLanguage" content="Fr" />
+						<p>
+						Téléphone :
+						<a href="tel:+33556677889" itemprop="telephone">05 56 67 78 89</a>
+						</p>
+						<p>
+						Disponibilité : <span itemprop="hoursAvailable" itemscope itemtype="http://schema.org/OpeningHoursSpecification">
+							<meta itemprop="dayOfWeek" content="Monday" />
+							<meta itemprop="dayOfWeek" content="Tuesday" />
+							<meta itemprop="dayOfWeek" content="Wednesday" />
+							<meta itemprop="dayOfWeek" content="Thursday" />
+							<meta itemprop="dayOfWeek" content="Friday" />
+							<meta itemprop="opens" content="10:00" />
+							<meta itemprop="closes" content="19:00" />
+							Lundi au Vendredi de 10h à 19h
+						</span>
+						</p>
 					</div>
 				</div>
+
 				
 				<div class="picture right">
 					<img src="./assets/images/camera.webp" alt="Appareil photo">
