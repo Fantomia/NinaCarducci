@@ -221,7 +221,7 @@ body {
 	z-index: -1;
 }
 .form-container {
-	flex : 2;
+	flex : 1;
 
 }
 form {
@@ -251,6 +251,20 @@ form textarea {
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
+}
+
+.footer__about {
+	display: flex;
+	flex-direction: column;
+}
+
+.informations__contact p, .informations__call p {
+	margin: 0;
+
+}
+
+.informations__call {
+	margin-top: 1rem;
 }
 
 @media all and (max-width: 1180px) {
