@@ -103,8 +103,8 @@ body {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #D7D093;
-	border-radius:0 ;
+	background-color: #585632;
+	border-radius:0 ;   
 }
 .nav-pills .nav-link {
 	color: #000
@@ -265,6 +265,11 @@ input[type="submit"] {
 
 .informations__call {
 	margin-top: 1rem;
+}  
+
+.informations__call a {
+	text-decoration: none;
+	color: #000;
 }
 
 @media all and (max-width: 1180px) {
